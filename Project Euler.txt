@@ -1,3 +1,19 @@
+Project Euler
+
+
+
+1.
+If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+Find the sum of all the multiples of 3 or 5 below 1000.
+
+have a hashmap m
+for 3 and 5
+  while each multiple x is not greater than 1000
+    put x in m
+sum all x in m
+
+
+
 2.
 while fibonacci term t is less than 4 million
 if t is even
@@ -5,3 +21,6 @@ if t is even
 compute the next fibonacci term t
 return t
 
+
+
+3.
