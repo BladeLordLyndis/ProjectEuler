@@ -1,0 +1,7 @@
+2.
+while fibonacci term t is less than 4 million
+if t is even
+  add t to sum 
+compute the next fibonacci term t
+return t
+
