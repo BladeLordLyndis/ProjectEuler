@@ -9,7 +9,7 @@ for 3 and 5
     put x in m
 sum all x in m
 
-
+==========
 
 2.
 while fibonacci term t is less than 4 million
@@ -18,9 +18,25 @@ if t is even
 compute the next fibonacci term t
 return t
 
-
+==========
 
 3.
+create an array a of up to size sqrt(n) since this is the largest possible factor
+for x = 2 until sqrt(n)
+  if x is not marked
+    while x * m <= sqrt(n)
+      mark index x * m in a as a composite number
+for each x in a
+  if x is not marked
+    add x to sum
+
+----------
+
+instead of using an array, use a hash table
+
+==========
+
+
 
 
 
