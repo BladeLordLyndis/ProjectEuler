@@ -36,6 +36,36 @@ instead of using an array, use a hash table
 
 ==========
 
+4.
+find largest possible value l for the number of digits d * 2
+find largest palindrome x less than or equal to l
+for each palindrome p in decreasing value from x
+  for n = largest d digit number to smallest d digit number
+    if p mod n == 0
+      return p
+    else if p mod n > largest d digit number
+      break
+
+==========
+
+5.
+l = largest divisor
+m = multiple
+p = l * m
+while solution not found
+  solution found = true;
+  for x = l to 2
+    if p % x != 0
+      solution found = false;
+  m++
+  p = l * m
+return p
+
+
+
+
+
+
 
 
 

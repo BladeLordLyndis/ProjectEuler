@@ -28,5 +28,6 @@ public class Problem3 {
         break;
       }
     }
+    keyboard.close();
   }
 }
