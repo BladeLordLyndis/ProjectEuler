@@ -61,8 +61,16 @@ while solution not found
   p = l * m
 return p
 
+==========
 
-
+6.
+l = largest number
+for x = 1 to l
+  s = x * x
+  sumProds += s
+  sum += x
+sum *= sum
+return sumProds - sum
 
 
 
