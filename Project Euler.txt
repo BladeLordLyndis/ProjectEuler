@@ -72,6 +72,24 @@ for x = 1 to l
 sum *= sum
 return sumProds - sum
 
+==========
+
+7.
+n = nth prime to find
+limit = (n - 2) * 12
+m = boolean array of numbers not prime of size limit
+for x = 2 until < limit
+  for all multiple of x <= limit
+    set the corresponding location to true
+search m until the nth prime is found
+
+
+
+
+
+
+
+
 
 
 
